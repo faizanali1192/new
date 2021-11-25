@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <Header>
+        <!-- Toggler/collapsibe Button -->
+        <div class="mt-3 ml-3 d-block d-md-none" id="sidebar-btn">
+
+            <img src="./images/icons/toggle.png ">
+        </div>
+        <!-- //Navbar -->
+        <nav class="navbar navbar-expand-sm ">
+
+            <div class="container d-none d-md-block">
+                <img src="./images/logo.png">
+            </div>
+            <!-- Links -->
+            <div class="container">
+                <ul class="navbar-nav ml-auto pr-5 d-none d-md-block ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Industries
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Technology and Software</a>
+                            <a class="dropdown-item" href="#">Customer Products and Insights</a>
+                            <a class="dropdown-item" href="#">Marketing and Ad-Ops</a>
+                            <a class="dropdown-item" href="#">E-Commerce</a>
+                            <a class="dropdown-item" href="#">HR and Recurting</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- //sidebar  -->
+        <div id="sideNav">
+            <div class="sidebar__heading">
+                <div class="text__sidebar-heading">Menu</div>
+                <img id="cross-btn" src="./images/icons/cross.png" alt="" />
+            </div>
+
+            <hr class="divider" />
+            <ul>
+                <li><a class="sidebar__items">HOME</a></li>
+                <li><a class="sidebar__items">INDUSTRIES</a></li>
+                <li><a class="sidebar__sub-items">Technology and Software</a></li>
+                <li><a class="sidebar__sub-items">Customer Products and Insights</a></li>
+                <li><a class="sidebar__sub-items">Marketing and Ad-Ops</a></li>
+                <li><a class="sidebar__sub-items">E-Commerce</a></li>
+                <li><a class="sidebar__sub-items">HR and Recurting</a></li>
+                <li><a class="sidebar__items">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <!-- Hero -->
+        <img src="./images/heroside.png" class="hero-side-img">
+        <img src="./images/herosidemobile.png" class="hero-side-img side-circle-mobile">
+        <div class="hero-side-circle"></div>
+        <div class="container ">
+            <div class="row hero__section">
+                <div class="hero__left-col  col-md-6 order-2 order-md-1 ">
+                    <h1>Helping you <br>
+                        <span> scale</span> with <span>data</span>
+                    </h1>
+                    <p>
+                        We bring your ideas and data to life with data science, machine learning, and artificial
+                        intelligence. We help top companies build and deploy custom analytics solutions.
+                    </p>
+                    <button type="button">Contact Us</button>
+                </div>
+                <div class="hero__right-col  col-md-6 text-center  order-1 order-md-2">
+                    <img src="./images/header.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </Header>
+
+
+    <!-- About Section -->
+    <div class="about-section container-fluid">
+        <div class="overlay">
+
+            <h1>
+                Apple Insight Named in 2020 Clutch <br>Leaders MatriX for Data Analytics
+            </h1>
+            <h2>Top 3 Big Data Companies<br>
+                in Canada
+            </h2>
+            <div class="about-images">
+                <img src="./images/about.png" alt="">
+                <img src="./images/about.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+
+    <div class="container services-section ">
+        <h1>World-Class Services</h1>
+        <h6>
+            We are a team of world-class data scientists and engineers who have helped top companies like<span>
+                Facebook,
+                Google, Uber, Amazon, Microsoft</span> and others solve some of their hardest problems.
+        </h6>
+        <h5>
+            Learn More <span>About Our Services</span>
+        </h5>
+    </div>
+
+    <div class="container">
+        <!-- //first post -->
+        <div class=" row posts-section">
+            <div class="col-12 col-md-6  order-2 order-md-1 ">
+                <h2>
+                    AI and Machine <br> Learning Products
+                </h2>
+                <p>We’ve created some of the leading AI products on the market today. We help plan, architect and create
+                    practical and scalable AI. <br><br> We help bring your product vision to life.</p>
+                <span class="learn-more">Learn More</span>
+            </div>
+
+            <div class="col-12 col-md-6  order-1 order-md-2">
+                <div class="post-img">
+                    <img src="./images/firstservice.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- second post -->
+        <div class=" row posts-section ">
+            <div class="col-12 col-md-6  ">
+                <div class="post-img">
+                    <img src="./images/secondservices.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-6   ">
+                <h2>
+                    Data Science & <br> Analytics
+                </h2>
+                <p>We’ve helped innovative organizations of all sizes — from startups to Fortune 500s — build analytics
+                    solutions. <br> <br>
+                    We help our customers acquire, clean, organize, connect and leverage data so that they can make
+                    informed business decisions.   <br>
+                    We help give your data a voice.
+                </p>
+                <span class="learn-more">Learn More</span>
+            </div>
+        </div>
+        <!-- third post -->
+        <div class=" row posts-section">
+            <div class="col-12 col-md-6  order-2 order-md-1 ">
+                <h2>
+                    Data Engineering <br> and Architecture
+                </h2>
+                <p></p>We can help you scale your data infrastructure to handle more complex processes or high volume transactions.<br><br>We provide guidance and implementation for complex data and infrastructure. At the same time, we help you optimize for the cost of maintaining high performance systems.</p>
+                <span class="learn-more">Learn More</span>
+            </div>
+            <div class="col-12 col-md-6  order-1 order-md-2">
+                <div class="post-img">
+                    <img src="./images/thirdservices.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        var sidebarBtn = document.getElementById('sidebar-btn');
+        var sideNav = document.getElementById('sideNav');
+        sideNav.style.left = "-242px";
+        sidebarBtn.onclick = function () {
+            if (sideNav.style.left == "0px") {
+                sideNav.style.left = "-242px"
+            } else {
+                sideNav.style.left = "0px"
+            }
+        }
+        var crossBtn = document.getElementById('cross-btn');
+        var sideNav = document.getElementById('sideNav');
+
+        sideNav.style.left = "-242px";
+
+        crossBtn.onclick = function () {
+            if (sideNav.style.left == "0px") {
+                sideNav.style.left = "-242px"
+            } else {
+                sideNav.style.left = "0px"
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
